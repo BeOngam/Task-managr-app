@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                      // پشتیبانی از توابع جدید JS
+    "module": "ESNext",                      // ماژول‌نویسی مدرن (import/export)
+    "moduleResolution": "Node",              // برای پیدا کردن فایل‌ها مثل Node.js
+    "rootDir": "src",                        // فایل‌های ورودی از پوشه src
+    "outDir": "dist",                        // خروجی کامپایل‌شده
+    "baseUrl": "./src",                      // برای import بدون ../
+    "paths": {
+      "*": ["*"]
+    },
+    "strict": true,                          // بررسی دقیق‌تر
+    "esModuleInterop": true,                 // برای کار با import پکیج‌ها
+    "skipLibCheck": true,                    // سرعت بیشتر
+    "forceConsistentCasingInFileNames": true // جلوگیری از اشتباه در نام‌گذاری فایل‌ها
+  },
+  "include": ["src"],                        // فقط سورس‌ها
+  "exclude": ["node_modules", "dist"]        // خروجی و پکیج‌ها رو نادیده بگیر
+}

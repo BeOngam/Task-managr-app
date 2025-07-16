@@ -1,0 +1,2 @@
+DATABASE_URL="mysql://armin:13851385a@localhost:3306/task_manager"
+JWT_SECRET="superSecretToken123"
